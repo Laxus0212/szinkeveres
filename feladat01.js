@@ -22,5 +22,5 @@ export function feladat01(szinek) {
     for (let i = 2; i <= hossz; i++) {
         szinkombinaciok += nAlattK(hossz, i);
     }
-    console.log(szinkombinaciok);
+    return szinkombinaciok;
 }
